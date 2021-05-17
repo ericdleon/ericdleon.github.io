@@ -174,10 +174,12 @@ img {
 .header {
   width: 100%;
   position: fixed;
-  bottom: 0;
+  /* bottom: 0; */
+  top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color: transparent;
 }
 
 /*==================== NAV ====================*/
@@ -213,7 +215,8 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    bottom: -100%;
+    /* bottom: -100%; */
+    top: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -249,7 +252,8 @@ img {
 .nav__close {
   position: absolute;
   right: 1.3rem;
-  bottom: 0.5rem;
+  /* bottom: 0.5rem; */
+  top: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -261,7 +265,8 @@ img {
 
 /* show menu */
 .show-menu {
-  bottom: 0;
+  /* bottom: 0; */
+  top: 0;
 }
 
 /* Active link */
@@ -585,7 +590,7 @@ img {
 .skills__open .skills__list {
   height: max-content;
   margin-bottom: var(--mb-2-5);
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
 .skills__open .skills__arrow {
