@@ -183,7 +183,8 @@ img {
 /*==================== NAV ====================*/
 .nav {
   max-width: 968px;
-  height: var(--header-height);
+  /* height: var(--header-height); */
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,7 +201,8 @@ img {
 }
 
 .nav__toggle {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
+  font-size: 2rem;
   cursor: pointer;
 }
 
