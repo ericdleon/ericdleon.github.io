@@ -968,15 +968,6 @@ img {
   background-color: var(--text-color-light);
 }
 
-.trail {
-  /* className for the trail elements */
-  position: absolute;
-  height: 6px;
-  width: 6px;
-  border-radius: 3px;
-  background: var(--first-color-alt);
-}
-
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -1046,10 +1037,6 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
-  }
-
-  .trail {
-    display: none;
   }
 }
 
@@ -1172,9 +1159,6 @@ img {
   .footer__copy {
     margin-top: 4.5rem;
   }
-  .trail {
-    display: none;
-  }
 }
 
 /* For large devices */
@@ -1213,8 +1197,5 @@ img {
   }
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .trail {
-    display: block;
   }
 }
