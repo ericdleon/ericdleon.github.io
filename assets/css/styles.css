@@ -1013,9 +1013,6 @@ img {
   .project__img {
     width: 200px;
   }
-  .trail {
-    display: none;
-  }
 }
 
 /* For medium devices */
@@ -1174,6 +1171,9 @@ img {
   .main,
   .footer__container {
     padding: 0;
+  }
+  .header {
+    background-color: var(--body-color);
   }
   .home__blob {
     width: 320px;
