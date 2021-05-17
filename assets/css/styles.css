@@ -222,7 +222,8 @@ img {
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
+    /* border-radius: 1.5rem 1.5rem 0 0; */
+    border-radius: 0 0 1.5rem 1.5rem;
     transition: 0.3s;
   }
 }
@@ -275,9 +276,9 @@ img {
 }
 
 /* Change background header */
-.scroll-header {
+/* .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /*==================== HOME ====================*/
 
@@ -1163,6 +1164,12 @@ img {
   .footer__copy {
     margin-top: 4.5rem;
   }
+  .header {
+    background-color: var(--body-color);
+  }
+  .scroll-header {
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
+  }
 }
 
 /* For large devices */
@@ -1204,5 +1211,8 @@ img {
   }
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .scroll-header {
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
   }
 }
