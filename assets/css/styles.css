@@ -774,6 +774,10 @@ img {
   overflow: initial;
 }
 
+.portfolio__data {
+  margin-bottom: 2.5rem;
+}
+
 .portfolio__content {
   padding: 0 1.5rem;
 }
